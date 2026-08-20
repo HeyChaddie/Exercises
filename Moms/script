@@ -1,10 +1,13 @@
 "use strict";
 
-function beregnMoms(beloeb = 100, moms = 25) {
-  return beloeb + (beloeb * moms) / 100;
+function beregnMoms(beloeb, moms = 25) {
+  console.log(beloeb + (beloeb * moms) / 100);
 }
 
-console.log(beregnMoms);
+beregnMoms(100);
+beregnMoms(75);
+beregnMoms(50);
+beregnMoms(25);
 
 //       ,-.       _,---._ __  / \
 //      /  )    .-'       `./ /   \
