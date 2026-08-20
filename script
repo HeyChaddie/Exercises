@@ -1,0 +1,7 @@
+"use strict";
+
+function beregnMoms(beloeb = 100, moms = 25) {
+  console.log(beloeb + (beloeb * moms) / 100);
+}
+
+beregnMoms();
