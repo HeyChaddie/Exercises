@@ -21,13 +21,9 @@ function rockClicked() {
   win.classList.add("hidden");
   lose.classList.add("hidden");
 
-  player1.classList.remove("rock");
-  player1.classList.remove("paper");
-  player1.classList.remove("scissors");
+  player1.classList.remove("rock, paper, scissors");
 
-  player2.classList.remove("rock");
-  player2.classList.remove("paper");
-  player2.classList.remove("scissors");
+  player2.classList.remove("rock, paper, scissors");
 
   traefferValg();
 }
@@ -40,13 +36,10 @@ function paperClicked() {
   win.classList.add("hidden");
   lose.classList.add("hidden");
 
-  player1.classList.remove("rock");
-  player1.classList.remove("paper");
-  player1.classList.remove("scissors");
+  player1.classList.remove("rock, paper, scissors");
 
-  player2.classList.remove("rock");
-  player2.classList.remove("paper");
-  player2.classList.remove("scissors");
+  player2.classList.remove("rock, paper, scissors");
+
   traefferValg();
 }
 
@@ -58,13 +51,10 @@ function scissorClicked() {
   win.classList.add("hidden");
   lose.classList.add("hidden");
 
-  player1.classList.remove("rock");
-  player1.classList.remove("paper");
-  player1.classList.remove("scissors");
+  player1.classList.remove("rock, paper, scissors");
 
-  player2.classList.remove("rock");
-  player2.classList.remove("paper");
-  player2.classList.remove("scissors");
+  player2.classList.remove("rock, paper, scissors");
+
   traefferValg();
 }
 
