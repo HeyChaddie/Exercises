@@ -1,15 +1,17 @@
-"use strict";
+import { randomNummer } from "../utils_lib/utils_lib.js";
+import { $ } from "../utils_lib/utils_lib.js";
+//function randomNummer(max) {
+//return Math.ceil(Math.random() * max);
+//}
 
-function randomNummer() {
-  return Math.ceil(Math.random() * 10);
-}
+const randomNr = randomNummer(100);
+
+console.log("randomNr", randomNr);
 
 const numberReveal = document.querySelector(".numberReveal");
 const guessClick = document.querySelector(".guessClick");
 const nrResult = document.querySelector(".nrResult");
 const guessedNr = document.querySelector(".guessedNr");
-
-const randomNr = randomNummer();
 
 guessClick.addEventListener("click", function () {
   const guess = Number(guessedNr.value);
