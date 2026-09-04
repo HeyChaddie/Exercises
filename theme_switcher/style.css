@@ -1,0 +1,20 @@
+body {
+  background-color: var(--bg);
+}
+
+p {
+  color: var(--fontClr);
+}
+
+[data-theme="fun"] {
+  --bg: hotpink;
+  --fontClr: yellow;
+}
+
+[data-theme="dark"] {
+  --bg: rgb(54, 54, 54);
+}
+
+[data-theme="light"] {
+  --bg: rgb(255, 255, 255);
+}
